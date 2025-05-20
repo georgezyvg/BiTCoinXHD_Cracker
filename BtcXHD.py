@@ -21,7 +21,7 @@ filename = input('[*]Enter File Name With Type Format: ')
 console = Console()
 console.clear()
 
-with open(filename) as f:
+with open(rich_address_wallet_BTC.txt) as f:
 	add = f.read().split()
 add = set(add)
 print('\n\n\n\n\n\n\n\n\n\n\n\n', Fore.RED, str(mmdrza), Style.RESET_ALL, '\n')
